@@ -1,0 +1,127 @@
+@font-face {
+    font-family: Monument;
+    src: url(./MonumentExtended-FreeForPersonalUse/MonumentExtended-Ultrabold.otf);
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+.mein{
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.main{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(167, 142, 154);
+    display: flex;
+    overflow: hidden;
+}
+
+.part1{
+    height: 100%;
+    width: 26%;
+    background-color: #BEA4AA;
+}
+.part2{
+    height: 100%;
+    width: 65%;
+    background-color: #BEA4AA;
+    background-image: url('https://images.pexels.com/photos/388517/pexels-photo-388517.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1');
+    background-position: center;
+    background-size: cover;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: hsla(330, 2%, 24%, 0.288);
+}
+.part3{
+    height: 100%;
+    width: 9%;
+    background-color: #BEA4AA;
+}
+
+.text{
+    height: 300px;
+    position: absolute;
+    width: 400px;
+    left: 7%;
+    top: 50% ;
+    transform: translate(0, -50%);
+}
+.text h1{
+    font-size: 5vw;
+    font-family: Monument;
+    font-weight: 500;
+    text-transform: uppercase;
+    line-height: 5vw;
+    letter-spacing: 8px;
+    color: #fff;
+}
+
+.small-img{
+    height: 350px;
+    width: 250px;
+    position: absolute;
+    top: 50%;
+    right:4%;
+    transform: translate(0, -50%);
+    background-image: url('https://images.unsplash.com/photo-1529680459049-bf0340fa0755?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=687&q=80');
+    background-size: cover;
+    background-position: center;
+    
+}
+
+.vertical-text {
+    position: absolute;
+    right: -33%;
+    transform-origin: 0% 0%;
+    top: 48%;
+    
+}
+.vertical-text h1 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+    font-size: 5.5vw;
+    font-weight: 900;
+    font-family: Monument;
+    color: transparent;
+    letter-spacing: 6px;
+    transform: rotate(90deg);
+    text-transform: uppercase;
+}
+
+.nav{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 297px;
+    left: 5%;
+    top: 5%;
+}
+
+.nav img{
+    height: 65px;
+}
+
+.nav h5{
+    position: relative;
+    z-index: 3;
+    font-size: 15px;
+    font-family: PP mori;   
+    color: #fff;
+}
